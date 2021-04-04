@@ -1,4 +1,10 @@
+# Setup.sh
 mkdir -p ~/.streamlit/
+
+echo "\
+[general]\n\
+email = \"tkwoo@kakao.com\"\n\
+" > ~/.streamlit/credentials.toml
 
 echo "\
 [server]\n\
